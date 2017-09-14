@@ -1,4 +1,4 @@
-#Projet 8INF955 
+#Projet 8INF955
 
 <table>
 <tr><td>Nom</td><td>Dorei Mi ! </td></tr>
@@ -14,21 +14,18 @@
 
 ### Histoire
 
-une Idol ( nom : Hydôl ? ) devait se rendre au Cosmic Nihon Festival mais elle a pris le mauvais bus et c'est retrouvé perdu dans la capagne du Québec. 
-Perdu dans cette nature sauvage loin de civilisation civilisé, elle peut compter sur ses fans. Ses fans son répartie en 7 groupes les Doh, Rei, Mie, Pha, Saul, La et les Xi.
-Chaque groupe à ses propres compétences. 
+Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les gens, le Quèbec décide d'organiser le Cosmic Nihon Festival. Alors qu'elle compte se rendre là-bas en tant qu'invité d'honneur, la jeune Idole PLACEHOLDER_NAME se retrouve perdue au milieu de la forêt québecoise après un crash d'avion. Elle va devoir se débrouiller pour se rendre à temps au festival, en sollicitant l'aide de ses nombreux fans qu'elle pourra rencontrer au cours de son périple.
 
-*TODO*
-développer l'histoire
+* Les otaku s'appelent : Doh Rei Mie Pha Saul La Xi
+
 
 ### Gameplay
 
+* Les Otaku on des capas différent celon leur type
 * Side Scroller
 * Le joueur dispose d'Otaku
-* Les Otaku on des capas différent celon leur type
-* Les otaku s'appelent : Doh Rei Mie Pha Saul La Xi
+
+
 
 *TODO*
 Trouver comment donner le nombre d'otaku. Bonus Stage en jeu de rythme ?
- 
-
