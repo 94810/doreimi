@@ -22,7 +22,10 @@ img{
 }
 </style>
 
-# Dorei Mi !
+![Dorei Mi](./Logo.png)
+
+---
+
 <table id="table1">
 <tr><td>Titre</td><td>Dorei Mi !</td></tr>
 <tr><td>Developpeurs</td><td>
