@@ -1,12 +1,36 @@
-# Dorei Mi !
+<style>
+h1{
+    text-align:center;}
 
-<table>
+table#table1{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    font-size:xx-small;}
+
+img{
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+    }
+
+.bsc{
+    font-variant: small-caps;}
+
+img{
+  float : left;
+}
+</style>
+
+# Dorei Mi !
+<table id="table1">
 <tr><td>Titre</td><td>Dorei Mi !</td></tr>
-<tr><td>Developpeurs</td><td>Desrousseaux Florian,  
-    
-François,      
-PELLICER Marion,
-Pablo</td></tr>
+<tr><td>Developpeurs</td><td>
+    Florian <span class=bsc>Desrousseaux</span><br>
+    François <span class=bsc> </span><br>
+    Marion <span class=bsc>Pellicer</span><br>
+    Pablo <span class=bsc>Bourdelas</span>
+    </td></tr>
 <tr><td>Moteur de Jeu</td><td> Unity </td></tr>
 <tr><td>Date de Sortie</td><td> Inconnue </td></tr>
 <tr><td>Genre</td><td> Platforme/Puzzle 2D </td></tr>
@@ -43,3 +67,16 @@ L'utilisation des otakus se ferait avec un retour audio, en fonction de leur typ
 Ensuite, nous avons les phases dites de "concert", où le joueur contrôle un grand nombre d'otaku. Les décors sont plus ruraux, on se retrouve au milieu d'une ville ou dans un endroit clos l'ambiance est très différente de celle instaurée au cours des voyages. Ce changement de décor et des moyens mis à disposition implique forcément un changement dans le gameplay, les énigmes sont pensées différement afin que le joueur n'entre pas dans une routine de résolution et ne se lasse pas du jeu.
 
 Des stages bonus seront également disponible tout au long de l'aventure. Nous pourrons débloquer ces stages après avoir complété d'autres niveaux et complété certains succès comme réussir une extraction d'un niveau en un temps donné ou encore en limitant le nombre d'otaku qu'il faudra utiliser pour s'en sortir. Il y aura aussi d'autres stages bonus plus "épiques" ceux-là pourront être directement intégrés à la phase de gameplay normale du joueur qui pourra y accéder en atteignant une zone de la carte qui était cachée.
+
+### Inspiration
+
+Le jeu s'inspire de Pikmin (Nintendo-2001). Le jeu reprend les catégorie multiple a capacité différentes
+ainsi que l'aspect aventure. Le jeu differt par ça vu 2D de coté et l'ajout de l'aspect platforme.
+Le jeu pourrait aussi être être comparé a Lemmings (Psygnosis/DMA Design-1991).
+
+![Pikmin&Lemmings](./Game.png)
+
+Le design du personnage principale seras inspiré des vocaloids
+
+*Exemple :*
+![3 vocaloids](./Vocaloid.png)
