@@ -40,7 +40,7 @@ img{
 <tr><td>Mode</td><td> Un joueur </td></tr>
 <tr><td>Plateforme</td><td> Windows / Unix </td></tr>
 <tr><td>Media</td><td> Dématérialisé </td></tr>
-<tr><td>Input</td><td> PlaceHolder </td></tr>
+<tr><td>Input</td><td> Clavier / Souris </td></tr>
 </table>
 
 ### Histoire
@@ -49,7 +49,7 @@ Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les
 
 ### Gameplay
 
-Le joueur incarne Yhdol et peut se déplacer en marchant et sautant dans le décor (tableau). Des énigmes bloquent son chemin, et il doit les  résoudre à l'aide des otakus.
+Le joueur incarne Yhdol et peut se déplacer en marchant et sautant dans le décor (tableau). Des énigmes bloquent son chemin, et il doit les résoudre à l'aide des otakus.
 Le gameplay repose sur l'utilisation des différentes capacités de chaque type d'otaku.
 
 *Exemple les otakus Pha seraient forts, les Saul grands,
@@ -61,7 +61,7 @@ Tout d'abord, nous avons les phases dites de "voyage", lors de ces phases le jou
 
 *Exemple 1 : un niveaux basique avec des caisses qui bloque le passage, le joueur devrait alors utiliser des otakus forts pour libérer le passage.*
 
-*Exemple 2 : Le joueur utilise un otaku fort pour propulser dans les airs, un otaku connaissant l'art de la coupe pour sectionner une corde ce qui permet d'abaisser un pont*
+*Exemple 2 : Le joueur utilise un otaku fort pour propulser dans les airs un otaku connaissant l'art de la coupe, pour sectionner une corde ce qui permet d'abaisser un pont*
 
 Ensuite, nous avons les phases dites de "concert", où le joueur contrôle un grand nombre d'otaku. Les décors sont plus ruraux, on se retrouve au milieu d'une ville ou dans un endroit clos l'ambiance est très différente de celle instaurée au cours des voyages. Ce changement de décor et de moyens mis à disposition implique forcément un changement dans le gameplay, les énigmes sont pensées différement afin que le joueur n'entre pas dans une routine de résolution et ne se lasse pas du jeu.
 
@@ -71,7 +71,7 @@ L'utilisation des otakus se ferait avec un retour audio, en fonction de leur typ
 
 *Exemple : lorsqu'un otaku Pha utilise sa force, la note Fa est jouée*
 
-La sélection des différents otakus pourra être marqué par un changement dans la couleurs utilisée pour les représenter. Par exemple, un otaku dont l'utilisation n'a pas encore était faite paraitra avec des couleurs pastels tandis qu'un autre déjà placé sur le terrain se verra affiché avec des couleurs plus vivantes, on oublie le pastel ici ; ce changement de couleur parait dès que l'otaku est placé et celui-ci repasse au pastel si le joueur décide de supprimer la sélection qu'il a fait. On peut rajouter à cela que la sélection du joueur est marquée par un léger grossissement des éléments sélectionnés.
+La sélection des différents otakus pourra être marqué par un changement dans la couleurs utilisée pour les représenter. Par exemple, un otaku dont l'utilisation n'a pas encore été faite paraitra avec des couleurs pastels tandis qu'un autre déjà placé sur le terrain se verra affiché avec des couleurs plus vives. Ce changement de couleur parait dès que l'otaku est placé et celui-ci repasse au pastel si le joueur décide de supprimer la sélection qu'il a fait. On peut rajouter à cela que la sélection du joueur est marquée par un léger grossissement des éléments sélectionnés.
 
 ### Bonus
 
@@ -79,7 +79,7 @@ Des stages bonus seront également disponibles tout au long de l'aventure. Nous 
 
 ### Inspiration
 
-Le jeu s'inspire de Pikmin (Nintendo-2001). Il reprend les multiples catégories à capacité différentes ainsi que l'aspect "aventure". Le jeu differt par sa vue 2D de côté et l'ajout de l'aspect "platforme". Le jeu pourrait aussi bien être comparé a Lemmings (Psygnosis/DMA Design-1991).
+Le jeu s'inspire de Pikmin (Nintendo-2001). Il reprend les multiples catégories à capacité différentes ainsi que l'aspect "aventure". Le jeu differt par sa vue 2D de côté et l'ajout de l'aspect "platforme". Le jeu pourrait aussi bien être comparé à Lemmings (Psygnosis/DMA Design-1991).
 
 ![Pikmin&Lemmings](./Game.png)
 
