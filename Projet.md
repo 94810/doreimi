@@ -4,9 +4,10 @@ h1{
 
 table#table1{
     width:50%;
-    margin-left:25%;
-    margin-right:25%;
-    font-size:xx-small;}
+    margin-left:25% ;
+    margin-right:25% ;
+    font-size:xx-small ;
+  }
 
 img{
     width:50%;
@@ -17,9 +18,6 @@ img{
 .bsc{
     font-variant: small-caps;}
 
-img{
-  float : left;
-}
 </style>
 
 ![Dorei Mi](./Logo.png)
