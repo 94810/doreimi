@@ -49,7 +49,7 @@ Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les
 
 ### Gameplay
 
-Le joueur incarne Yhdol et peut se déplacer en marchant et sautant dans le décor (tableau). Des énigmes bloquent son chemin, et il doit les résoudre à l'aide des otakus.
+Le joueur incarne Yhdol et peut se déplacer en marchant et sautant dans le décor (tableau en 2D). Des énigmes bloquent son chemin, et il doit les résoudre à l'aide des otakus.
 Le gameplay repose sur l'utilisation des différentes capacités de chaque type d'otaku.
 
 *Exemple les otakus Pha seraient forts, les Saul grands,
