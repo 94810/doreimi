@@ -1,4 +1,10 @@
 <style>
+
+body{
+  margin-left : 10%;
+  margin-right : 10%;
+}
+
 h1{
     text-align:center;}
 
@@ -10,21 +16,26 @@ table#table1{
   }
 
 img{
-    width:50%;
-    margin-left:25%;
-    margin-right:25%;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
     }
 
 .bsc{
     font-variant: small-caps;}
 
+#head{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:25%;
+    margin-bottom: 50px;
+    }
 </style>
 
-![Dorei Mi](./Logo.png)
+<img src=./Logo.png id=head>
 
----
-
-<table id="table1">
+<table id="table1" style="page-break-after : always">
 <tr><td>Titre</td><td>Dorei Mi !</td></tr>
 <tr><td>Developpeurs</td><td>
     Florian <span class=bsc>Desrousseaux</span><br>
@@ -40,6 +51,7 @@ img{
 <tr><td>Media</td><td> Dématérialisé </td></tr>
 <tr><td>Input</td><td> Clavier / Souris </td></tr>
 </table>
+
 
 ### Histoire
 
