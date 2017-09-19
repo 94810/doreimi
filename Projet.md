@@ -80,4 +80,4 @@ Le design du personnage principal sera inspiré des vocaloids ci-dessous :
 
 
 
-*Toutes les images utilisées dans ce document sont non contractuelles, elles servent uniquement de support à notre projet pour vous fournir une idée des graphismes futurs qui pourront y être insérés.*
+***Toutes les images utilisées dans ce document sont non contractuelles, elles servent uniquement de support à notre projet pour vous fournir une idée des graphismes futurs qui pourront y être insérés.***
