@@ -73,7 +73,7 @@ Tout d'abord, nous avons les phases dites de "voyage", lors de ces phases le jou
 
 *Exemple 2 : Le joueur utilise un otaku fort pour propulser dans les airs un otaku connaissant l'art de la coupe, pour sectionner une corde ce qui permet d'abaisser un pont*
 
-Ensuite, nous avons les phases dites de "concert", où le joueur contrôle de nombreux otakus. Les décors sont plus ruraux, on se retrouve au milieu d'une ville, ou dans un endroit clos, l'ambiance est très différente de celle instaurée au cours des voyages. Ce changement de décor et de moyens mis à disposition implique forcément un changement dans le gameplay, les énigmes sont pensées différement afin que le joueur n'entre pas dans une routine de résolution et ne se lasse pas du jeu.
+Ensuite, nous avons les phases dites de "concert", où le joueur contrôle de nombreux otakus. Les décors sont plus ruraux, on se retrouve au milieu d'une ville, ou dans un endroit clos, l'ambiance est très différente de celle instaurée au cours des voyages. Ce changement de décor et de moyens mis à disposition implique forcément un changement dans le level design, les énigmes sont pensées différemment afin que le joueur n'entre pas dans une routine de résolution et ne se lasse pas du jeu.
 
 ### Bonus
 
