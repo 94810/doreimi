@@ -63,14 +63,6 @@ Tout d'abord, nous avons les phases dites de "voyage", lors de ces phases le jou
 
 Ensuite, nous avons les phases dites de "concert", où le joueur contrôle de nombreux otakus. Les décors sont plus ruraux, on se retrouve au milieu d'une ville, ou dans un endroit clos, l'ambiance est très différente de celle instaurée au cours des voyages. Ce changement de décor et de moyens mis à disposition implique forcément un changement dans le gameplay, les énigmes sont pensées différement afin que le joueur n'entre pas dans une routine de résolution et ne se lasse pas du jeu.
 
-### Feedback
-
-L'utilisation des otakus se ferait avec un retour audio, en fonction de leur type, ce qui permettrait d'introduire un côté musical aux énigmes, en créant des enchaînements de notes, pour créer des mélodies.
-
-*Exemple : lorsqu'un otaku Pha utilise sa force, la note Fa est jouée*
-
-La sélection des différents otakus pourra être marquée par un changement des couleurs utilisées pour les représenter. Par exemple, un otaku dont l'utilisation n'a pas encore été faite paraîtra avec des couleurs pastels tandis qu'un autre déjà placé sur le terrain se verra affiché avec des couleurs plus vives. Ce changement de couleur parait dès que l'otaku est placé et celui-ci repasse au pastel si le joueur décide de supprimer la sélection qu'il a fait. On peut rajouter à cela que la sélection du joueur est marquée par un léger grossissement des éléments sélectionnés.
-
 ### Bonus
 
 Des stages bonus seront également disponibles tout au long de l'aventure. Nous pourrons les débloquer après avoir complété d'autres niveaux en accomplissant des succès comme réussir une extraction d'un niveau en un temps donné ou encore en limitant le nombre d'otaku qu'il faudra utiliser pour s'en sortir. Il y aura aussi d'autres stages bonus plus "épiques" ceux-là pourront être directement intégrés à la phase de gameplay normale du joueur qui pourra y accéder en atteignant une zone de la carte qui était cachée.
@@ -85,3 +77,7 @@ Le design du personnage principal sera inspiré des vocaloids ci-dessous :
 
 *Exemple :*
 ![3 vocaloids](./Vocaloid.png)
+
+
+
+*Toutes les images utilisées dans ce document sont non contractuelles, elles servent uniquement de support à notre projet pour vous fournir une idée des graphismes futurs qui pourront y être insérés.*
