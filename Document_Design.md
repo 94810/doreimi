@@ -62,10 +62,33 @@ Les sauvegardes sont automatiques et s'effectuent à chaque fin de niveau. Compl
 
 #Histoire, Cadre et Personnages
 ##Histoire
+
+Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les gens, le Québec décide d'organiser le Cosmic Nihon Festival. 
+
+Alors qu'elle compte se rendre là-bas en tant qu'invitée d'honneur, la jeune star de la J-pop Yhdol se retrouve perdue au milieu de la forêt québecoise après un crash d'avion. 
+
+Elle va devoir se débrouiller pour se rendre à temps au festival, en sollicitant l'aide de ses nombreux fans qu'elle pourra rencontrer au cours de son périple. Yhdol rencontrera plusieurs types d'otaku : les Doh, les Rei, les Mie, les Pha, les Saul, les La et les Xi.
+
 ##Le monde du jeu
 ####Ambiance et apparence globale du jeu
+
+L'environnement global du jeu regroupera deux ambiances : 
+- Une ambiance haute en couleur et dynamique par moments
+- Une ambiance un peu plus sombre et intimidante à d'autres moments
+
+L'apparence globale du jeu se rapprochera beaucoup du style manga afin d'accentuer l'aspect nippon du jeu. Les couleurs auront une place importante dans la compréhension de l'ambiance qui règne dans le lieux que visite notre jeune star. L'ambiance sonore sera également beaucoup utilisée pour plonger le joueur dans un état proche de celui que doit ressentir le personnage dans le niveau actuellement chargé.
+
 ####Zones
+
+Notre héroïne se déplaçant au coeur du Canada de nombreux background du jeu seront des paysages atypiques et uniques que l'ont ne peut voir que dans ce pays. De plus, une part de magie pourra y être insérées pour donner un aspect très fantasy à ce monde et augmenter les contrastes qui peuvent exister entre les différentes zones traversées par Yhdol. On pourra par exemple passer d'un niveaux dans la sombre forêt avec des animaux hostiles en fond à un monde de plaines qui nous sépare du désert beaucoup plus calme et moins effrayant pour la jeune femme.
+
+De plus, il y aura également des niveaux en fin de stage qui se passeront dans un milieu plus urbain et peuplé qui désigneront les phases de concerts qui constituent le Cosmic Nihon Festival.
+
 ##Personnages
+
+Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venu participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et pourra demander l'aide des otakus qu'elle rencontrera sur son chemin. -- Insérer des images de Yhdol au document --
+
+De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans. -- Idem ici si on a des esquisses d'otakus on peut les mettre ici --
 
 #Niveaux
 ##Niveaux
