@@ -75,6 +75,8 @@ Tout d'abord, nous avons les phases dites de "voyage", lors de ces phases le jou
 
 Ensuite, nous avons les phases dites de "concert", où le joueur contrôle de nombreux otakus. Les décors sont plus ruraux, on se retrouve au milieu d'une ville, ou dans un endroit clos, l'ambiance est très différente de celle instaurée au cours des voyages. Ce changement de décor et de moyens mis à disposition implique forcément un changement dans le level design, les énigmes sont pensées différemment afin que le joueur n'entre pas dans une routine de résolution et ne se lasse pas du jeu.
 
+*Exemple 3 : On a un trou mais aucun otaku pour sauter par dessus, on peut utiliser des otaku pour boucher le trou*
+
 ### Bonus
 
 Des stages bonus seront également disponibles tout au long de l'aventure. Nous pourrons les débloquer après avoir complété d'autres niveaux en accomplissant des succès comme réussir une extraction d'un niveau en un temps donné ou encore en limitant le nombre d'otaku qu'il faudra utiliser pour s'en sortir. Il y aura aussi d'autres stages bonus plus "épiques" ceux-là pourront être directement intégrés à la phase de gameplay normale du joueur qui pourra y accéder en atteignant une zone de la carte qui était cachée.
