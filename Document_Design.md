@@ -125,21 +125,129 @@ De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour 
 ##Niveau d'entrainement / Tutoriels
 
 #Interface
-##Système visuel
+##Ecrans et Menus
+####Menu Principal
+_CONTINUER LA PARTIE_  
+Lance la partie à partir du dernier niveau terminé. S'il n'y a aucune sauvegarde présente dans la mémoire du jeu, l'option est remplacée par _NOUVELLE PARTIE_  
+
+_JOUER_  
+Fait apparaitre deux sous-options à l'écran :  
+- NOUVELLE PARTIE  
+Recommence le jeu depuis le début en supprimant la progression  
+- CHOIX DU NIVEAU
+Ouvre le Menu de choix de niveau  
+
+_QUITTER_  
+Termine l'exécution du jeu  
+
+####Menu de Choix de niveau
+Affiche la liste des niveaux débloqués
+
+_RETOUR_  
+Retourne au menu principal  
+
+####Menu Pause
+Accessible via la touche "Echap"  
+
+_SON ON/OFF_  
+Active ou désactive le son du jeu  
+
+_QUITTER LE NIVEAU_  
+Retourne au menu principal  
+
+_RETOUR_  
+Retourne au jeu  
+Equivalent à appuyer sur la touche "Echap"  
+
+
 ##Contrôles
-##Audio, music, effets audios
+####Dans les menus
+
+Pour choisir les différentes options présentes dans les menus, le joueur utilisera sa souris. Il pourra pointer sur l'option souhaitée et valider sa sélection en cliquant. Il pourra aussi utiliser la touche "Echap" pour retourner à l'écran précédent.  
+
+####En jeu
+
+Durant les parties, le joueur devra contrôler à la fois Yhdol et les Otakus.  
+
+Ydhol sera déplacée à l'aide des touches du clavier :  
+- Avec Q (en combinaison AZERTY) ou avec A (en combinaison QWERTY), elle se déplace à gauche  
+- Avec D (en combinaison AZERTY ou QWERTY), elle se déplace à droite
+- Avec Z (en combinaison AZERTY) ou avec Q (en combinaison QWERTY), elle saute
+
+Les otakus seront contrôlés avec la souris : 
+- En utilisant le pointeur, on pourra choisir où placer les otakus sur le niveau  
+- Le clic gauche de la souris permettra de valider le placement d'un otaku  
+- Le clic droit de la souris permettra de supprimer l'otaku  
+- La molette de la souris permettra de changer le type d'otaku que l'on veut placer  
+
+La touche "Echap" permettra d'afficher le menu de Pause  
+
+##Audio, musique, effets audios
+
+####Musique de fond
+
+Dans chaque niveau, une musique sera jouée. Elle sera en lien avec l'ambiance du niveau et sera utilisée pour accentuer l'immersion. 
+
+<table id="table_music">
+<tr><td>Moments</td><td>Musiques</td></tr>
+<tr><td>Menu principal</td><td> Musique #0 </td></tr>
+<tr><td>Menu pause</td><td> Musique #3 </td></tr>
+<tr><td>Niveau 1</td><td> Musique #1 </td></tr>
+<tr><td>Niveau 2</td><td> Musique #2 </td></tr>
+</table>
+
+####Effets audios
+
+Pour créer une interaction plus agréable et immersive avec le jeu, des effets audios seront présents, et les différentes actions réalisées par le jouer généreront des retour audios.  
+L'utilisation des Otakus est associée à une note de musique en fonction de son nom.
+
+<table id="table_sound">
+<tr><td>Evénements</td><td>Sons</td></tr>
+<tr><td>Sélection dans le menu</td><td> Son #0 </td></tr>
+<tr><td>Retour dans le menu</td><td> Son #1 </td></tr>
+<tr><td>Utilisation de l'Otaku Doh</td><td> Son #2 </td></tr>
+<tr><td>Utilisation de l'Otaku Rei</td><td> Son #3 </td></tr>
+<tr><td>Utilisation de l'Otaku Mie</td><td> Son #4 </td></tr>
+<tr><td>Utilisation de l'Otaku Pha</td><td> Son #5 </td></tr>
+<tr><td>Utilisation de l'Otaku Saul</td><td> Son #6 </td></tr>
+<tr><td>Utilisation de l'Otaku La</td><td> Son #7 </td></tr>
+<tr><td>Utilisation de l'Otaku Xi</td><td> Son #8 </td></tr>
+<tr><td>Yhdol qui saute</td><td> Son #9 </td></tr>
+<tr><td>Récupération d'un item</td><td> Son #10 </td></tr>
+<tr><td>Niveau terminé</td><td> Son #11 </td></tr>
+<tr><td>Mort du personnage</td><td> Son #12 </td></tr>
+<tr><td>Déverrouillage avec une clé</td><td> Son #13 </td></tr>
+<tr><td>Impact au sol</td><td> Son #14 </td></tr>
+</table>
+
 ##Système d'aide
 
 #Intelligence artificielle
 
 L'Intelligence artificielle du jeu est très limitée du à l'absence d'ennemis dans le jeu. Les otakus qui obéiront à Yhdol la suivront sauf en cas d'ordres contraire.
+
 ##IA Ennemie
 ##Personnages alliés
 ##IA d'assistance
 
 #Détails techniques
 ##Matériel cible
+
+Dorei Mi ! sera disponible sur pc. Le jeu n'étant pas très gourmant, il ne demandera pas beaucoup de ressources pour tourner correctement. Les configurations minimales exhaustives requises pour faire tourner le jeu sont :
+
+Configuration minimale :
+  - Système d'exploitation : Windows 7+ / Linux 14.04
+  - Processeur : Intel Core i3-2100, 2.50GHz ou AMD FX-4100
+  - Mémoire vive : 4 Go
+  - Carte Graphique : Intel HD Graphics Gen 7
+  - Direct X : version 11
+
 ##Environnement de développement
+
+Le jeu sera développer sous Unity en C#.
+
 ##Exigence réseau
+
+Aucune exigence réseau.
 
 #Game Art
