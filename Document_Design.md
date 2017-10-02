@@ -3,11 +3,7 @@ _COVER PLACEHOLDER_
 #Vue d'ensemble du Jeu
 ##Présentation
 
-Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les gens, le Québec décide d'organiser le Cosmic Nihon Festival.
-
-Alors qu'elle compte se rendre là-bas en tant qu'invitée d'honneur, la jeune star de la J-pop Yhdol se retrouve perdue au milieu de la forêt québecoise après un crash d'avion.
-
-Elle va devoir se débrouiller pour se rendre à temps au festival, en sollicitant l'aide de ses nombreux fans qu'elle pourra rencontrer au cours de son périple. Yhdol rencontrera plusieurs types d'otaku : les Doh, les Rei, les Mie, les Pha, les Saul, les La et les Xi.
+Doreimi est un jeu en temps réel de plateforme fonctionnant avec des énigmes. Le joueur controlera son personnage (Yhdol) qui placera et donnera des ordres à ses subordonnés pour évoluer dans l'histoire. C'est un jeu avec un contexte musical important qui sert a rendre agréable l'immersion du joueur dans le jeu.
 
 ##Genre
 
@@ -101,6 +97,8 @@ De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour 
 ##Système d'aide
 
 #Intelligence artificielle
+
+L'Intelligence artificielle du jeu est très limitée du à l'absence d'ennemis dans le jeu. Les otakus qui obéiront à Yhdol la suivront sauf en cas d'ordres contraire.
 ##IA Ennemie
 ##Personnages alliés
 ##IA d'assistance
