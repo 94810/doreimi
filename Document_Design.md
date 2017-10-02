@@ -115,19 +115,18 @@ _RETOUR_
 Retourne au menu principal  
 
 ####Menu Pause
-Accessible via la touche "echap"  
+Accessible via la touche "Echap"  
 
-_SON ON/OFF_
+_SON ON/OFF_  
 Active ou désactive le son du jeu  
 
-_QUITTER LE NIVEAU_
+_QUITTER LE NIVEAU_  
 Retourne au menu principal  
 
 _RETOUR_  
 Retourne au jeu  
-Equivalent à appuyer sur la touche "echap"  
+Equivalent à appuyer sur la touche "Echap"  
 
-####Ecran de Chargement
 
 ##Contrôles
 ####Dans les menus
@@ -157,7 +156,7 @@ La touche "Echap" permettra d'afficher le menu de Pause
 
 Dans chaque niveau, une musique sera jouée. Elle sera en lien avec l'ambiance du niveau et sera utilisée pour accentuer l'immersion. 
 
-<table id="table1" style="page-break-after : always">
+<table id="table_music">
 <tr><td>Moments</td><td>Musiques</td></tr>
 <tr><td>Menu principal</td><td> Musique #0 </td></tr>
 <tr><td>Menu pause</td><td> Musique #3 </td></tr>
@@ -170,7 +169,7 @@ Dans chaque niveau, une musique sera jouée. Elle sera en lien avec l'ambiance d
 Pour créer une interaction plus agréable et immersive avec le jeu, des effets audios seront présents, et les différentes actions réalisées par le jouer généreront des retour audios.  
 L'utilisation des Otakus est associée à une note de musique en fonction de son nom.
 
-<table id="table1" style="page-break-after : always">
+<table id="table_sound">
 <tr><td>Evénements</td><td>Sons</td></tr>
 <tr><td>Sélection dans le menu</td><td> Son #0 </td></tr>
 <tr><td>Retour dans le menu</td><td> Son #1 </td></tr>
@@ -185,6 +184,8 @@ L'utilisation des Otakus est associée à une note de musique en fonction de son
 <tr><td>Récupération d'un item</td><td> Son #10 </td></tr>
 <tr><td>Niveau terminé</td><td> Son #11 </td></tr>
 <tr><td>Mort du personnage</td><td> Son #12 </td></tr>
+<tr><td>Déverrouillage avec une clé</td><td> Son #13 </td></tr>
+<tr><td>Impact au sol</td><td> Son #14 </td></tr>
 </table>
 
 ##Système d'aide
@@ -192,6 +193,7 @@ L'utilisation des Otakus est associée à une note de musique en fonction de son
 #Intelligence artificielle
 
 L'Intelligence artificielle du jeu est très limitée du à l'absence d'ennemis dans le jeu. Les otakus qui obéiront à Yhdol la suivront sauf en cas d'ordres contraire.
+
 ##IA Ennemie
 ##Personnages alliés
 ##IA d'assistance
@@ -205,7 +207,7 @@ Configuration minimale :
   - Système d'exploitation : Windows 7+ / Linux 14.04
   - Processeur : Intel Core i3-2100, 2.50GHz ou AMD FX-4100
   - Mémoire vive : 4 Go
-  - Carte Graphique : Intel HD Graphix
+  - Carte Graphique : Intel HD Graphics Gen 7
   - Direct X : version 11
 
 ##Environnement de développement
