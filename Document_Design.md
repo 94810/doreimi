@@ -20,6 +20,8 @@ L'environnement global du jeu regroupera deux ambiances :
 - Une ambiance haute en couleur et dynamique par moments
 - Une ambiance un peu plus sombre et intimidante à d'autres moments
 
+Il y a également une ambiance musicale importante du fait de l'histoire du jeu qui collera avec les niveaux.
+
 #Gameplay et Mécaniques
 ##Gameplay
 ####Game Progression
