@@ -37,15 +37,47 @@ Chaque niveau est une nouvelle énigme à résoudre. Tous les challenges se pass
 L'objectif principal du jeu est d'accompagner notre héroïne Yhdol tout au long de son voyage au Canada durant la tournée de la Cosmic Nihon Festival. Pour se faire, elle devra traverser d'immenses paysages et résoudre des casses-têtes afin d'avancer dans le monde et à chaque étape arriver à l'heure à son concert.
 
 ####Play Flow
+
 ##Mécaniques
+
+La mécanique du jeu est de contrôler Ydhol et ses otakus en les placant et en leur donnant des ordres.
+
+
+
+
 ####Physique
+
+Le jeu utilise une physique dite réaliste sauf en ce qui concerne les actions spéciales des otakus.
+
 ####Déplacements et mouvements
+
+Saut Yhdol
+Saut Saul
+Force souffle
+Pousser juste un objet
+
 ####Objets
 
-Dans certains niveaux du jeu, notre héroïne pourra remporter des objets divers qui pourront l'aider à avancer dans le monde. Ces objets sont nombreux, celle-ci pourra obtenir des bonus qui lui permettra d'appeler des otakus en renfort. Le nombre d'otaku que celle-ci peut appeler à l'aide en plus peut varier de 2 à 6. Il y aura aussi des items rares qui donneront une plus grande durée d'application au bonus utilisé, ainsi au lieu de n'être actif que pour le niveau actuel, l'activation d'un item rare doublera le temps d'application de l'appel à l'aide.
--- Pour le design de ces bonus (à voir si vous êtes d'accord avec ça déjà) on pourrait encore y réfléchir mais on peut soit mettre un genre de haut-parleur et pour les items rares des piles genre mais je ne sais pas si c'est bien ou pas ^^ --
+Lourds : Caisses et rochers.
+Leger : Clés, sacs pleins.
 
 ####Actions
+
+Chaque otaku a une capacité spéciale.
+Le Doh peut pousser des objets lourds, et se déplacer latéralement.
+
+Le Rei peut porter des petits objets, et se déplacer latéralement.
+
+Le Mie peut téléporter Yhdol près d'un Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placée.
+
+Le Pha sert de balise pour la téléportation d'Yhdol par un Mie. Il ne peut pas se déplacer.
+
+Le Saul peut lancer un otaku, et se déplacer latéralement.
+
+Le La peut créer des courants d'airs poussant les personnages et les objets légérs, et se déplacer latéralement.
+
+Le Xi peut se spécialiser pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
+
 ####Combat
 _N/A_
 ####Economie
