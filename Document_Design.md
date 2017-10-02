@@ -107,7 +107,22 @@ L'Intelligence artificielle du jeu est très limitée du à l'absence d'ennemis 
 
 #Détails techniques
 ##Matériel cible
+
+Dorei Mi ! sera disponible sur pc. Le jeu n'étant pas très gourmant, il ne demandera pas beaucoup de ressources pour tourner correctement. Les configurations minimales exhaustives requises pour faire tourner le jeu sont :
+
+Configuration minimale :
+  - Système d'exploitation : Windows 7+ / Linux 14.04
+  - Processeur : Intel Core i3-2100, 2.50GHz ou AMD FX-4100
+  - Mémoire vive : 4 Go
+  - Carte Graphique : Intel HD Graphix
+  - Direct X : version 11
+
 ##Environnement de développement
+
+Le jeu sera développer sous Unity en C#.
+
 ##Exigence réseau
+
+Aucune exigence réseau.
 
 #Game Art
