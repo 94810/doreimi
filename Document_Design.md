@@ -174,7 +174,7 @@ Ydhol sera déplacée à l'aide des touches du clavier :
 - Avec D (en combinaison AZERTY ou QWERTY), elle se déplace à droite
 - Avec Z (en combinaison AZERTY) ou avec Q (en combinaison QWERTY), elle saute
 
-Les otakus seront contrôlés avec la souris : 
+Les otakus seront contrôlés avec la souris :
 - En utilisant le pointeur, on pourra choisir où placer les otakus sur le niveau  
 - Le clic gauche de la souris permettra de valider le placement d'un otaku  
 - Le clic droit de la souris permettra de supprimer l'otaku  
@@ -186,7 +186,7 @@ La touche "Echap" permettra d'afficher le menu de Pause
 
 ####Musique de fond
 
-Dans chaque niveau, une musique sera jouée. Elle sera en lien avec l'ambiance du niveau et sera utilisée pour accentuer l'immersion. 
+Dans chaque niveau, une musique sera jouée. Elle sera en lien avec l'ambiance du niveau et sera utilisée pour accentuer l'immersion.
 
 <table id="table_music">
 <tr><td>Moments</td><td>Musiques</td></tr>
@@ -238,7 +238,7 @@ Dorei Mi ! sera disponible sur pc. Le jeu n'étant pas très gourmant, il ne dem
 Configuration minimale :
   - Système d'exploitation : Windows 7+ / Linux 14.04
   - Processeur : Intel Core i3-2100, 2.50GHz ou AMD FX-4100
-  - Mémoire vive : 4 Go
+  - Mémoire vive : 1 Go
   - Carte Graphique : Intel HD Graphics Gen 7
   - Direct X : version 11
 
