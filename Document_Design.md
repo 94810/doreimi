@@ -1,4 +1,5 @@
-_COVER PLACEHOLDER_
+
+<img src=Logo.png style="page-break-after : always">
 
 # Vue d'ensemble du Jeu
 ## Présentation
@@ -49,11 +50,18 @@ Le but est d'atteindre la zone de sortie, avec Yhdol.
 
 La zone de sortie nécéssiter l'activation d'un ou plusieurs intérupteur pour pouvoir être utilisable.
 
-L'utilisation, déplacment d'objet ou l'activation d'interrupteur (plaque/bouton et dispositif similaire) permets 
+L'utilisation, déplacement d'objet ou l'activation d'interrupteur (plaque/bouton et dispositif similaire) permets le déclanchement
+d'événement modifiant les posibilités de déplacement dans le tableau. Celà se matérialise par des murs escamotable et des dispositifs
+de portes.
 
 #### Objectifs
 
-L'objectif principal du jeu est d'accompagner notre héroïne Yhdol tout au long de son voyage au Canada durant la tournée de la Cosmic Nihon Festival. Pour se faire, elle devra traverser d'immenses paysages et résoudre des casses-têtes afin d'avancer dans le monde et à chaque étape arriver à l'heure à son concert.
+L'objectif principal du jeu est d'accompagner notre héroïne Yhdol tout au long de son voyage au Canada durant la tournée de la Cosmic Nihon Festival.
+
+Pour se faire, elle devra traverser d'immenses paysages et résoudre des casses-têtes afin d'avancer dans le monde et à chaque étape arriver à l'heure à son concert.
+
+L'objectif d'un tableau est d'atteindre la zone de sortie active.
+Si la zone de sortie n'est pas active il faut l'activer à l'aide des d'intérupteurs indiquer dans le tableaux
 
 #### Play Flow
 
@@ -61,19 +69,17 @@ L'objectif principal du jeu est d'accompagner notre héroïne Yhdol tout au long
 
 La mécanique du jeu est de contrôler Ydhol et ses otakus en les placant et en leur donnant des ordres.
 
-
-
-
 #### Physique
 
 Le jeu utilise une physique dite réaliste sauf en ce qui concerne les actions spéciales des otakus.
 
 #### Déplacements et mouvements
 
-Saut Yhdol
-Saut Saul
-Force souffle
-Pousser juste un objet
+Ydhol peut se déplacer vers la gauche et vers la droite.
+On dipose d'un saut d'une distance maximal de 2 unités à l'horizontal et 2 unités à la vertical.
+
+Yhdol ainsi que les objets sont soumis à la gravité, le valeur de cette force est 1 g.
+![Ydhol](IMG/Ydhol.png)
 
 #### Objets
 
@@ -82,32 +88,29 @@ Leger : Clés, sacs pleins.
 
 #### Actions
 
-Chaque otaku a une capacité spéciale.
-Le Doh peut pousser des objets lourds, et se déplacer latéralement.
+Chaque types d'otaku à une capacité spéciale.
+
+Le Doh peut pousser des objets lourds ainsi que les maintenir, et se déplacer latéralement.
+![Doh](IMG/Doh.png)
 
 Le Rei peut porter des petits objets, et se déplacer latéralement.
+![Rei](IMG/Rei.png)
 
-Le Mie peut téléporter Yhdol près d'un Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placée.
-
+Le Mie peut téléporter Yhdol près de n'importe quel Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placée.
 Le Pha sert de balise pour la téléportation d'Yhdol par un Mie. Il ne peut pas se déplacer.
-
+![PhaMie](IMG/PhaMie.png)
 Le Saul peut lancer un otaku, et se déplacer latéralement.
-
+![Saul](IMG/Saul.png)
 Le La peut créer des courants d'airs poussant les personnages et les objets légérs, et se déplacer latéralement.
-
+La force crée par le courant d'air est de 0.8g (La force ne doit pas permetre de pouvoir voler ou léviter).
+![La](IMG/La.png)
 Le Xi peut se spécialiser pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
 
-#### Combat
-_N/A_
-#### Economie
-_N/A_
 #### Screen Flow
 ## Options de jeu
 ## Replay et Sauvegarde
 
 Les sauvegardes sont automatiques et s'effectuent à chaque fin de niveau. Compléter un niveau, sauvegarde la progression du joueur automatiquement et ce dernier ne peut en aucun cas sauvegarder sa partie en plein milieu d'un niveau.
-
-## Cheats et Easter Eggs
 
 # Histoire, Cadre et Personnages
 ## Histoire
@@ -135,13 +138,27 @@ De plus, il y aura également des niveaux en fin de stage qui se passeront dans 
 
 ## Personnages
 
-Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venu participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et pourra demander l'aide des otakus qu'elle rencontrera sur son chemin. -- Insérer des images de Yhdol au document --
+Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venu participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et pourra demander l'aide des otakus qu'elle rencontrera sur son chemin.
 
-De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans. -- Idem ici si on a des esquisses d'otakus on peut les mettre ici --
+De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans.
 
 # Niveaux
 ## Niveaux
-## Niveau d'entrainement / Tutoriels
+Voici un schéma du premier niveaux
+![lvl1](IMG/LVL1.png)
+
+Lorsque le joueur pousse le rocher à l'aide d'un Doh (1) le mur (2) se léve. Si le joueur relache la pierre elle revient en place
+et le mur rentre dans la terre.
+La zone de sortis (plaque 2 ronds jaunes) à besoin d'avoir 2 intérupteur activé (suivre trait violet).
+Si l'intérupteur en sous sol est activé la sortie de la caverne se bloque, si on le déactive elle se débloque.
+
+la platforme avec l'autre intérupteur est situé à environ 2.5/3 unité du bord du haut du mur.
+
+Pour résoudre cette énigme le joueur dispose de :
+- 1 Doh
+- 1 Mie
+- 1 Pha
+- 1 La
 
 # Interface
 ## Ecrans et Menus
@@ -182,24 +199,28 @@ Equivalent à appuyer sur la touche "Echap"
 ## Contrôles
 #### Dans les menus
 
-Pour choisir les différentes options présentes dans les menus, le joueur utilisera sa souris. Il pourra pointer sur l'option souhaitée et valider sa sélection en cliquant. Il pourra aussi utiliser la touche "Echap" pour retourner à l'écran précédent.  
+Pour choisir les différentes options présentes dans les menus, le joueur utilisera sa souris. Il pourra pointer sur l'option souhaitée et valider sa sélection en cliquant. Il pourra aussi utiliser la touche "Echap" pour retourner à l'écran précédent.
 
 #### En jeu
 
-Durant les parties, le joueur devra contrôler à la fois Yhdol et les Otakus.  
+Durant les parties, le joueur devra contrôler à la fois Yhdol et les Otakus.
 
-Ydhol sera déplacée à l'aide des touches du clavier :  
-- Avec Q (en combinaison AZERTY) ou avec A (en combinaison QWERTY), elle se déplace à gauche  
-- Avec D (en combinaison AZERTY ou QWERTY), elle se déplace à droite
-- Avec Z (en combinaison AZERTY) ou avec Q (en combinaison QWERTY), elle saute
+Les contrôles serons configurable.
+
+Les contrôles par default proposé serons :
+
+Au clavier selon la disposition :
+- En local dite AZERTY : Z Saut, Q mouvement droit, D mouvement Gauche.
+- En local dite QWERTY : W Saut, A mouvement droit, D mouvement Gauche.
 
 Les otakus seront contrôlés avec la souris :
-- En utilisant le pointeur, on pourra choisir où placer les otakus sur le niveau  
-- Le clic gauche de la souris permettra de valider le placement d'un otaku  
-- Le clic droit de la souris permettra de supprimer l'otaku  
-- La molette de la souris permettra de changer le type d'otaku que l'on veut placer  
 
-La touche "Echap" permettra d'afficher le menu de Pause  
+- En utilisant le pointeur, on pourra choisir où placer les otakus sur le niveau
+- Le clic gauche de la souris permettra de valider le placement d'un otaku
+- Le clic droit de la souris permettra de supprimer l'otaku
+- La molette de la souris permettra de changer le type d'otaku que l'on veut placer
+
+La touche "Echap" permettra d'afficher le menu de Pause
 
 ## Audio, musique, effets audios
 
@@ -269,5 +290,3 @@ Le jeu sera développer sous Unity en C#.
 ## Exigence réseau
 
 Aucune exigence réseau.
-
-# Game Art
