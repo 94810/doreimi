@@ -4,7 +4,7 @@
 # Vue d'ensemble du Jeu
 ## Présentation
 
-Doreimi est un jeu en temps réel de plateforme fonctionnant avec des énigmes. Le joueur controlera son personnage (Yhdol) qui placera et donnera des ordres à ses subordonnés pour évoluer dans l'histoire. C'est un jeu avec un contexte musical important qui sert a rendre agréable l'immersion du joueur dans le jeu.
+Doreimi est un jeu en temps réel de plateforme fonctionnant avec des énigmes. Le joueur controlera son personnage (Yhdol) qui placera et donnera des ordres à ses subordonnés pour évoluer dans l'histoire. C'est un jeu avec un contexte musical important qui sert à rendre agréable l'immersion du joueur dans le jeu.
 
 ## Genre
 
@@ -31,10 +31,9 @@ Le jeux est découpé en différent tableaux.
 
 La progression générale dans le jeu s'effectue en finisant une suite de tableaux.
 
-Les tableau sont présenté dans un ordre définit à l'avance.
+Les tableaux sont présentés dans un ordre définit à l'avance.
 
-Le joueur ne peut pas passer un tableau, et doit oblitoirement finir un tableau pour passer
-au suivant.
+Le joueur ne peut pas passer un tableau, et doit oblitoirement finir un tableau pour passer au suivant.
 
 #### Structure des Missions/Challenges
 
@@ -45,14 +44,12 @@ Au fur et à mesure du jeu, les énigmes seront de plus en plus complexes tout e
 
 Le jeu est divisé en étape dont le franchissement parfait est représenté par l'apparition d'une phase de concert qu'elle donne au Cosmic Nihon Festival.
 
-Pour chaque tableau on donne au joueur un nombre définit à l'avance d'otaku pour solver l'énigme.
+Pour chaque tableau on donne au joueur un nombre définit à l'avance d'otaku pour résoudre l'énigme.
 Le but est d'atteindre la zone de sortie, avec Yhdol.
 
-La zone de sortie nécéssiter l'activation d'un ou plusieurs intérupteur pour pouvoir être utilisable.
+La zone de sortie nécessite l'activation d'un ou plusieurs interrupteur pour pouvoir être utilisable.
 
-L'utilisation, déplacement d'objet ou l'activation d'interrupteur (plaque/bouton et dispositif similaire) permets le déclanchement
-d'événement modifiant les posibilités de déplacement dans le tableau. Celà se matérialise par des murs escamotable et des dispositifs
-de portes.
+L'utilisation, déplacement d'objet ou l'activation d'interrupteur (plaque/bouton et dispositif similaire) permet le déclanchement d'événements modifiant les posibilités de déplacement dans le tableau. Cela se matérialise par des murs escamotable et des dispositifs de portes.
 
 #### Objectifs
 
@@ -61,13 +58,13 @@ L'objectif principal du jeu est d'accompagner notre héroïne Yhdol tout au long
 Pour se faire, elle devra traverser d'immenses paysages et résoudre des casses-têtes afin d'avancer dans le monde et à chaque étape arriver à l'heure à son concert.
 
 L'objectif d'un tableau est d'atteindre la zone de sortie active.
-Si la zone de sortie n'est pas active il faut l'activer à l'aide des d'intérupteurs indiquer dans le tableaux
+Si la zone de sortie n'est pas active il faut l'activer à l'aide des d'interrupteurs indiqués dans le tableau.
 
 #### Play Flow
 
 ## Mécaniques
 
-La mécanique du jeu est de contrôler Ydhol et ses otakus en les placant et en leur donnant des ordres.
+La mécanique du jeu consiste à contrôler Ydhol et ses otakus en les placant et en leur donnant des ordres.
 
 #### Physique
 
@@ -84,7 +81,7 @@ Yhdol ainsi que les objets sont soumis à la gravité, le valeur de cette force 
 #### Objets
 
 Lourds : Caisses et rochers.
-Leger : Clés, sacs pleins.
+Légers : Clés, sacs pleins.
 
 #### Actions
 
@@ -96,21 +93,21 @@ Le Doh peut pousser des objets lourds ainsi que les maintenir, et se déplacer l
 Le Rei peut porter des petits objets, et se déplacer latéralement.
 ![Rei](IMG/Rei.png)
 
-Le Mie peut téléporter Yhdol près de n'importe quel Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placée.
+Le Mie peut téléporter Yhdol près de n'importe quel Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placé.
 Le Pha sert de balise pour la téléportation d'Yhdol par un Mie. Il ne peut pas se déplacer.
 ![PhaMie](IMG/PhaMie.png)
 Le Saul peut lancer un otaku, et se déplacer latéralement.
 ![Saul](IMG/Saul.png)
 Le La peut créer des courants d'airs poussant les personnages et les objets légérs, et se déplacer latéralement.
-La force crée par le courant d'air est de 0.8g (La force ne doit pas permetre de pouvoir voler ou léviter).
+La force créée par le courant d'air est de 0.8g (La force ne doit pas permettre de pouvoir voler ou léviter).
 ![La](IMG/La.png)
-Le Xi peut se spécialiser pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
+Le Xi peut se spécialisé pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
 
 #### Screen Flow
 ## Options de jeu
 ## Replay et Sauvegarde
 
-Les sauvegardes sont automatiques et s'effectuent à chaque fin de niveau. Compléter un niveau, sauvegarde la progression du joueur automatiquement et ce dernier ne peut en aucun cas sauvegarder sa partie en plein milieu d'un niveau.
+Les sauvegardes sont automatiques et s'effectuent à chaque fin de niveau. Compléter un niveau sauvegarde la progression du joueur automatiquement et ce dernier ne peut en aucun cas sauvegarder sa partie en plein milieu d'un niveau.
 
 # Histoire, Cadre et Personnages
 ## Histoire
@@ -128,31 +125,30 @@ L'environnement global du jeu regroupera deux ambiances :
 - Une ambiance haute en couleur et dynamique par moments
 - Une ambiance un peu plus sombre et intimidante à d'autres moments
 
-L'apparence globale du jeu se rapprochera beaucoup du style manga afin d'accentuer l'aspect nippon du jeu. Les couleurs auront une place importante dans la compréhension de l'ambiance qui règne dans le lieux que visite notre jeune star. L'ambiance sonore sera également beaucoup utilisée pour plonger le joueur dans un état proche de celui que doit ressentir le personnage dans le niveau actuellement chargé.
+L'apparence globale du jeu se rapprochera beaucoup du style manga afin d'accentuer l'aspect nippon du jeu. Les couleurs auront une place importante dans la compréhension de l'ambiance qui règne dans les lieux que visite notre jeune star. L'ambiance sonore sera également beaucoup utilisée pour plonger le joueur dans un état proche de celui que doit ressentir le personnage dans le niveau actuellement chargé.
 
 #### Zones
 
-Notre héroïne se déplaçant au coeur du Canada de nombreux background du jeu seront des paysages atypiques et uniques que l'ont ne peut voir que dans ce pays. De plus, une part de magie pourra y être insérées pour donner un aspect très fantasy à ce monde et augmenter les contrastes qui peuvent exister entre les différentes zones traversées par Yhdol. On pourra par exemple passer d'un niveaux dans la sombre forêt avec des animaux hostiles en fond à un monde de plaines qui nous sépare du désert beaucoup plus calme et moins effrayant pour la jeune femme.
+Notre héroïne se déplaçant au coeur du Canada de nombreux background du jeu seront des paysages atypiques et uniques que l'ont ne peut voir que dans ce pays. De plus, une part de magie pourra y être insérée pour donner un aspect très fantasy à ce monde et augmenter les contrastes qui peuvent exister entre les différentes zones traversées par Yhdol. On pourra par exemple passer d'un niveau dans la sombre forêt avec des animaux hostiles en fond à un monde de plaines qui nous sépare du désert beaucoup plus calme et moins effrayant pour la jeune femme.
 
 De plus, il y aura également des niveaux en fin de stage qui se passeront dans un milieu plus urbain et peuplé qui désigneront les phases de concerts qui constituent le Cosmic Nihon Festival.
 
 ## Personnages
 
-Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venu participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et pourra demander l'aide des otakus qu'elle rencontrera sur son chemin.
+Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venu participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et elle pourra demander l'aide des otakus qu'elle rencontrera sur son chemin.
 
 De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans.
 
 # Niveaux
 ## Niveaux
-Voici un schéma du premier niveaux
+Voici un schéma du premier niveau
 ![lvl1](IMG/LVL1.png)
 
-Lorsque le joueur pousse le rocher à l'aide d'un Doh (1) le mur (2) se léve. Si le joueur relache la pierre elle revient en place
-et le mur rentre dans la terre.
-La zone de sortis (plaque 2 ronds jaunes) à besoin d'avoir 2 intérupteur activé (suivre trait violet).
-Si l'intérupteur en sous sol est activé la sortie de la caverne se bloque, si on le déactive elle se débloque.
+Lorsque le joueur pousse le rocher à l'aide d'un Doh (1) le mur (2) se lève. Si le joueur relache la pierre elle revient en place et le mur rentre dans la terre.
+La zone de sortie (plaque avec 2 ronds jaunes) à besoin d'avoir 2 interrupteur activés (suivre trait violet).
+Si l'interrupteur en sous-sol est activé la sortie de la caverne se bloque, si on le désactive elle se débloque.
 
-la platforme avec l'autre intérupteur est situé à environ 2.5/3 unité du bord du haut du mur.
+la platforme avec l'autre interrupteur est située à environ 2.5/3 unité du bord du haut du mur. 
 
 Pour résoudre cette énigme le joueur dispose de :
 - 1 Doh
