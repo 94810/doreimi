@@ -14,13 +14,15 @@ table{
 </style>
 
 <img src='Logo.png' >
-
-<footer style='page-break-after : always'>
+<h1 style="text-align: center">Document de Design</h1>
+<div style='page-break-after : always ; margin-top : 85% ; font-size : xx-small; text-align : center'>
    Florian <span class=bsc>Desrousseaux</span> -
     François <span class=bsc>Duport</span> -
     Marion <span class=bsc>Pellicer</span> -
     Pablo <span class=bsc>Bourdelas</span>
-</footer>
+</div>
+
+
 
 # Vue d'ensemble du Jeu
 ## Présentation
@@ -46,6 +48,8 @@ Il y a également une ambiance musicale importante du fait de l'histoire du jeu 
 
 Le style du jeu seras en style pixel-art.
 
+<div style="page-break-after : always">     </div>
+
 # Gameplay et Mécaniques
 ## Gameplay
 #### Game Progression
@@ -57,6 +61,8 @@ La progression générale dans le jeu s'effectue en finisant une suite de tablea
 Les tableaux sont présentés dans un ordre définit à l'avance.
 
 Le joueur ne peut pas passer un tableau, et doit oblitoirement finir un tableau pour passer au suivant.
+
+Si le joueur chute dans un puit sans fond le tableau se réinitialise.
 
 #### Structure des Missions/Challenges
 
@@ -82,6 +88,8 @@ Pour se faire, elle devra traverser d'immenses paysages et résoudre des casses-
 
 L'objectif d'un tableau est d'atteindre la zone de sortie active.
 Si la zone de sortie n'est pas active il faut l'activer à l'aide des d'interrupteurs indiqués dans le tableau.
+
+<div style="page-break-after : always">     </div>
 
 ## Mécaniques
 
@@ -125,20 +133,24 @@ Le Rei peut porter des petits objets, et se déplacer latéralement.
 
 Le Mie peut téléporter Yhdol près de n'importe quel Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placé.
 Le Pha sert de balise pour la téléportation d'Yhdol par un Mie. Il ne peut pas se déplacer.
-
 ![PhaMie](IMG/PhaMie.png)
+
 Le Saul peut lancer un otaku, et se déplacer latéralement. Le lancer est possible
 si on dispose d'une ligne droite sans obstacle entre l'origine et la cible.
-
 ![Saul](IMG/Saul.png)
+
 Le La peut créer des courants d'airs poussant les personnages et les objets légérs, et se déplacer latéralement.
-La force créée par le courant d'air est de 0.8g (La force ne doit pas permettre de pouvoir voler ou léviter).
+La force créée par le courant d'air est de 0.8g (La force ne doit pas permettre de pouvoir voler ou léviter), pour Ydhol.
+Les objets sont poussés avec grande force sans tenir compte de la gravité.
 ![La](IMG/La.png)
+
 Le Xi peut se spécialiser pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
 
 ## Replay et Sauvegarde
 
 Les sauvegardes sont automatiques et s'effectuent à chaque fin de niveau. Compléter un niveau sauvegarde la progression du joueur automatiquement et ce dernier ne peut en aucun cas sauvegarder sa partie en plein milieu d'un niveau.
+
+<div style="page-break-after : always">     </div>
 
 # Histoire, Cadre et Personnages
 ## Histoire
@@ -148,6 +160,8 @@ Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les
 Alors qu'elle compte se rendre là-bas en tant qu'invitée d'honneur, la jeune star de la J-pop Yhdol se retrouve perdue au milieu de la forêt québecoise après un crash d'avion.
 
 Elle va devoir se débrouiller pour se rendre à temps au festival, en sollicitant l'aide de ses nombreux fans qu'elle pourra rencontrer au cours de son périple. Yhdol rencontrera plusieurs types d'Otakus : les Doh, les Rei, les Mie, les Pha, les Saul, les La et les Xi.
+
+<div style="page-break-after : always">     </div>
 
 ## Le monde du jeu
 #### Ambiance et apparence globale du jeu
@@ -164,11 +178,15 @@ Notre héroïne se déplaçant au coeur du Canada, de nombreux background du jeu
 
 De plus, il y aura également des niveaux en fin de stage qui se passeront dans un milieu plus urbain et peuplé qui désigneront les phases de concerts qui constituent le Cosmic Nihon Festival.
 
+<div style="page-break-after : always">     </div>
+
 ## Personnages
 
 Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venue participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et elle pourra demander l'aide des otakus qu'elle rencontrera sur son chemin.
 
 De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans.
+
+<div style="page-break-after : always;">     </div>
 
 # Niveaux
 ## Tableau 1
@@ -188,6 +206,8 @@ Le joueur dispose de :
 - 1 Saul
 - 1 La
 
+<div style="page-break-after : always">     </div>
+
 ## Tableau 2
 Voici un schéma du second niveau
 ![lvl1](IMG/LVL1.png)
@@ -203,6 +223,8 @@ Pour résoudre cette énigme le joueur dispose de :
 - 1 Mie
 - 1 Pha
 - 1 La
+
+<div style="page-break-after : always;">     </div>
 
 # Interface
 ## Ecrans et Menus
@@ -247,6 +269,7 @@ _RETOUR_
 Retourne au jeu  
 Equivalent à appuyer sur la touche "Echap"  
 
+<div style="page-break-after : always">     </div>
 
 ## Contrôles
 #### Dans les menus
@@ -285,13 +308,16 @@ par default sans prendre en compte la disposition :
   - C : Retirer un otaku
   - K,L : monter, descendre dans la liste de type otaku. En Mode J, parcourir les otaku.
   Mode Mie parcourir les Pha.
-  - 1-7 : Selection rapide des types otaku
+  - U : Réinitialiser le niveaux.
+  - 1-7 : Selection rapide des types otaku.
 
  Alternativement le joueur pourra aussi utiliser la souris pour les action suivante :
  - selectioner l'otaku à controler : pointeur de la souris.
  - Parcourir la liste de type d'otaku : molette de la souris.
 
 La touche "Echap" permettra d'afficher le menu de Pause.
+
+<div style="page-break-after : always">     </div>
 
 ## Audio, musique, effets audios
 
@@ -332,12 +358,10 @@ L'utilisation des Otakus est associée à une note de musique en fonction de son
 <tr><td>Action Invalide</td><td> Son #15 </td></tr>
 </table>
 
-# Intelligence artificielle
-
-L'Intelligence artificielle du jeu est très limitée du à l'absence d'ennemis dans le jeu. Les otakus qui obéiront à Yhdol la suivront sauf en cas d'ordres contraire.
+<div style="page-break-after : always">     </div>
 
 # Détails techniques
-## Matériel cible
+### Matériel cible
 
 Dorei Mi ! sera disponible sur PC. Le jeu n'étant pas très gourmant, il ne demandera pas beaucoup de ressources pour tourner correctement. Les configurations minimales exhaustives requises pour faire tourner le jeu sont :
 
@@ -349,12 +373,12 @@ Configuration minimale :
   - Carte Graphique : IGP Intel/AMD
   - DirectX 9 / OpenGL 3.2
 
-## Environnement de développement
+### Environnement de développement
 
 Le jeu sera développé sous Unity en C#.
 Les graphismes serons réalisé avec Gimp, et exporter au format png.
 Les musiques et bruitage seront exporter au format Ogg Vorbis.
 
-## Exigence réseau
+### Exigence réseau
 
 L'utilisateur devra disposer d'une connection internet pour le téléchargment initial du jeu. Une fois en jeu aucune connection ne sera requise.
