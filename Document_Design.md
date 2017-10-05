@@ -160,13 +160,13 @@ L'apparence globale du jeu se rapprochera beaucoup du style manga afin d'accentu
 
 #### Zones
 
-Notre héroïne se déplaçant au coeur du Canada de nombreux background du jeu seront des paysages atypiques et uniques que l'ont ne peut voir que dans ce pays. De plus, une part de magie pourra y être insérée pour donner un aspect très fantasy à ce monde et augmenter les contrastes qui peuvent exister entre les différentes zones traversées par Yhdol. On pourra par exemple passer d'un niveau dans la sombre forêt avec des animaux hostiles en fond à un monde de plaines qui nous sépare du désert beaucoup plus calme et moins effrayant pour la jeune femme.
+Notre héroïne se déplaçant au coeur du Canada, de nombreux background du jeu seront des paysages atypiques et uniques que l'on ne peut voir que dans ce pays. De plus, une part de magie pourra y être insérée pour donner un aspect très fantasy à ce monde et augmenter les contrastes qui peuvent exister entre les différentes zones traversées par Yhdol. On pourra par exemple passer d'un niveau dans la sombre forêt avec des animaux hostiles en fond à un monde de plaines qui nous sépare du désert beaucoup plus calme et moins effrayant pour la jeune femme.
 
 De plus, il y aura également des niveaux en fin de stage qui se passeront dans un milieu plus urbain et peuplé qui désigneront les phases de concerts qui constituent le Cosmic Nihon Festival.
 
 ## Personnages
 
-Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venu participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et elle pourra demander l'aide des otakus qu'elle rencontrera sur son chemin.
+Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Cette jeune star de la J-Pop est venue participer à la Cosmic Nihon Festival qui se déroule cette année au Canada. Cependant un crash d'avion va la mener à traverser tout le pays à pieds et elle pourra demander l'aide des otakus qu'elle rencontrera sur son chemin.
 
 De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans.
 
@@ -175,10 +175,10 @@ De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour 
 Voici un schéma du premier niveau
 ![lvl0](IMG/LVL0.png)
 
-Le rocher (1) n'est soumis à aucune force de rapelle.
+Le rocher (1) n'est soumis à aucune force de rappel.
 Le fossé (2) est profond de 3 unité pour 3 de largeur.
-La platorme (3) est placée de sorte à ce qu'un otaku puisse y être envoyé.
-La zone de fin (4) est placée après un fossé infiniment profond est de 4 unités de large.
+La plateforme (3) est placée de sorte à ce qu'un otaku puisse y être envoyé.
+La zone de fin (4) est placée après un fossé infiniment profond de 4 unités de large.
 
 Le joueur dispose de :
 - 1 Doh
@@ -196,7 +196,7 @@ Lorsque le joueur pousse le rocher à l'aide d'un Doh (1) le mur (2) se lève. S
 La zone de sortie (plaque avec 2 ronds jaunes) à besoin d'avoir 2 interrupteur activés (suivre trait violet).
 Si l'interrupteur en sous-sol est activé la sortie de la caverne se bloque, si on le désactive elle se débloque.
 
-la platforme avec l'autre interrupteur est située à environ 2.5/3 unité du bord du haut du mur.
+La plateforme avec l'autre interrupteur est située à environ 2.5/3 unité du bord du haut du mur.
 
 Pour résoudre cette énigme le joueur dispose de :
 - 1 Doh
@@ -208,9 +208,9 @@ Pour résoudre cette énigme le joueur dispose de :
 ## Ecrans et Menus
 #### Ecran de jeu et Camera
 
-La camera capture tout le tableau si sa largueur est inférieur à 30 unité, sinon on effectue un scrolling. Le tableau est toujours affiché sur toute sa hauteur.
+La camera capture tout le tableau si sa largueur est inférieure à 30 unité, sinon on effectue un scrolling. Le tableau est toujours affiché sur toute sa hauteur.
 
-Les otaku disponibles sont représentés par des bulles suivant Ydhol. Le type d'otaku actuellement selectionné est rendu par une bulle plus grande.
+Les otakus disponibles sont représentés par des bulles suivant Ydhol. Le type d'otaku actuellement selectionné est rendu par une bulle plus grande.
 
 <img src=IMG/Follow.png style='width:30%; margin-left:35%; margin-right:35%;'>
 
@@ -257,33 +257,33 @@ Pour choisir les différentes options présentes dans les menus, le joueur utili
 
 Durant les parties, le joueur devra contrôler à la fois Yhdol et les Otakus.
 
-Les contrôles serons configurable. Les contrôle par défault sont font au clavier souris. Le joueur pourras aussi configurer une manette.
+Les contrôles seront configurable. Les contrôles par défaut sont font au clavier souris. Le joueur pourra aussi configurer une manette.
 
-Les contrôles on 3 mode :
+Les contrôles on 3 modes :
   - Le Mode Classic
-  - Le Mode J : Le mode de selction des otaku positioné
-  - Le Mode Contextuelle : Ce mode et propre au capacité d'un otaku.
+  - Le Mode J : Le mode de selection des otakus positionés
+  - Le Mode Contextuelle : Ce mode est propre aux capacités d'un otaku.
 
-Les contrôles par default proposé serons :
+Les contrôles par défaut proposés seront :
 
 Au clavier selon la disposition :
   - En local dite AZERTY : Z Saut, Q mouvement droit, D mouvement Gauche.
   - En local dite QWERTY : W Saut, A mouvement droit, D mouvement Gauche.
 
 par default sans prendre en compte la disposition :
-  - I : Quiter le controle d'otaku. Les Commandes de mouvement retourne à Ydhol.
-  - O "Bouton d'action" : Trigger un intérupteur bouton (Ydhol).
+  - I : Quiter le controle d'otaku. Les commandes de mouvement retourne à Ydhol.
+  - O "Bouton d'action" : Actionner un interrupteur bouton (Ydhol).
 
  Effectuer l'action de type (Otaku).
 
- Mode J selectioner l'otaku courant.
+ Mode J sélectionner l'otaku courant.
 
  (La) Maintenir pour changer la direction du courant a l'aide des touches de mouvement.
 
   - J : Mode de selection otaku placés. (Mode J)
   - V : Placer un otaku
   - C : Retirer un otaku
-  - K,L : monter, désendre dans la liste de type otaku. En Mode J, parcourir les otaku.
+  - K,L : monter, descendre dans la liste de type otaku. En Mode J, parcourir les otaku.
   Mode Mie parcourir les Pha.
   - 1-7 : Selection rapide des types otaku
 
@@ -357,4 +357,4 @@ Les musiques et bruitage seront exporter au format Ogg Vorbis.
 
 ## Exigence réseau
 
-L'utilisateur devras disposé d'une connection internet pour le téléchargment initiale du jeu. Une fois en jeu aucune connection ne seras requise.
+L'utilisateur devra disposer d'une connection internet pour le téléchargment initial du jeu. Une fois en jeu aucune connection ne sera requise.
