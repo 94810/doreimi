@@ -1,5 +1,26 @@
+<style>
+body{
+  margin-left : 10%;
+  margin-right : 10%;
+}
 
-<img src=Logo.png style="page-break-after : always">
+.bsc{
+    font-variant: small-caps;}
+
+table{
+    font-size:xx-small ;
+  }
+
+</style>
+
+<img src='Logo.png' >
+
+<footer style='page-break-after : always'>
+   Florian <span class=bsc>Desrousseaux</span> -
+    François <span class=bsc>Duport</span> -
+    Marion <span class=bsc>Pellicer</span> -
+    Pablo <span class=bsc>Bourdelas</span>
+</footer>
 
 # Vue d'ensemble du Jeu
 ## Présentation
@@ -22,6 +43,8 @@ L'environnement global du jeu regroupera deux ambiances :
 - Une ambiance un peu plus sombre et intimidante à d'autres moments
 
 Il y a également une ambiance musicale importante du fait de l'histoire du jeu qui collera avec les niveaux.
+
+Le style du jeu seras en style pixel-art.
 
 # Gameplay et Mécaniques
 ## Gameplay
@@ -70,17 +93,25 @@ Le jeu utilise une physique dite réaliste sauf en ce qui concerne les actions s
 
 #### Déplacements et mouvements
 
+La taille d'Ydhol est de 1.5 unité de haut par 0.3 u de large.
+
 Ydhol peut se déplacer vers la gauche et vers la droite.
 On dipose d'un saut d'une distance maximal de 2 unités à l'horizontal et 2 unités à la vertical.
 
-Yhdol ainsi que les objets sont soumis à la gravité, le valeur de cette force est 1 g.
+Yhdol subit la gravité, le valeur de cette force est 1 g dirigé vers le bas.
 ![Ydhol](IMG/Ydhol.png)
 
 #### Objets
 
+Tout les objets subissent la gravité à valeur de 1g par default vers le bas de l'écran.
+
 Lourds : Caisses et rochers.
 Légers : Clés, sacs pleins.
 
+Les Intérupteur de type bouton ne peuvent être activé que par Ydhol.
+
+Les Intérupteur de type plaque peuvent être activé par Ydhol, un Rei
+portant un objet, ou un objet lourd placé dessus.
 #### Actions
 
 Chaque types d'otaku à une capacité spéciale.
@@ -93,8 +124,11 @@ Le Rei peut porter des petits objets, et se déplacer latéralement.
 
 Le Mie peut téléporter Yhdol près de n'importe quel Pha mais ne peut pas se déplacer. Il ne sert à rien si aucun Pha n'est placé.
 Le Pha sert de balise pour la téléportation d'Yhdol par un Mie. Il ne peut pas se déplacer.
+
 ![PhaMie](IMG/PhaMie.png)
-Le Saul peut lancer un otaku, et se déplacer latéralement.
+Le Saul peut lancer un otaku, et se déplacer latéralement. Le lancer est possible
+si on dispose d'une ligne droite sans obstacle entre l'origine et la cible.
+
 ![Saul](IMG/Saul.png)
 Le La peut créer des courants d'airs poussant les personnages et les objets légérs, et se déplacer latéralement.
 La force créée par le courant d'air est de 0.8g (La force ne doit pas permettre de pouvoir voler ou léviter).
@@ -136,15 +170,32 @@ Pour les personnages nous auront Yhdol, le personnage incarné par le joueur. Ce
 De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour aider Yhdol à résoudre les énigmes et à avancer jusqu'à son point de rendez-vous où elle chantera pour ses fans.
 
 # Niveaux
-## Niveaux
+## Tableau 1
 Voici un schéma du premier niveau
+![lvl0](IMG/LVL0.png)
+
+Le rocher (1) n'est soumis a aucune force de rapelle.
+Le fossé (2) est profond de 3 unité pour 3 de largeur.
+La platorme (3) est placé de sorte à ce qu'un otaku puisse y être envoié.
+La zone de fin (4) est placé après un fossé infiniment profond est de 4 unités de large.
+
+Le joueur dispose de :
+- 1 Doh
+- 1 Rei
+- 1 Mie
+- 1 Pha
+- 1 Saul
+- 1 La
+
+## Tableau 2
+Voici un schéma du second niveau
 ![lvl1](IMG/LVL1.png)
 
 Lorsque le joueur pousse le rocher à l'aide d'un Doh (1) le mur (2) se lève. Si le joueur relache la pierre elle revient en place et le mur rentre dans la terre.
 La zone de sortie (plaque avec 2 ronds jaunes) à besoin d'avoir 2 interrupteur activés (suivre trait violet).
 Si l'interrupteur en sous-sol est activé la sortie de la caverne se bloque, si on le désactive elle se débloque.
 
-la platforme avec l'autre interrupteur est située à environ 2.5/3 unité du bord du haut du mur. 
+la platforme avec l'autre interrupteur est située à environ 2.5/3 unité du bord du haut du mur.
 
 Pour résoudre cette énigme le joueur dispose de :
 - 1 Doh
@@ -154,6 +205,14 @@ Pour résoudre cette énigme le joueur dispose de :
 
 # Interface
 ## Ecrans et Menus
+#### Ecran de jeu et Camera
+
+La camera capture tout le tableau si ça largueur est inférieur à 30 unité, sinon on effectue un scrolling. Le tableau est toujours afficher sur toute ça hauteur.
+
+Les otaku disponible sont représenté par des bulles suivant Ydhol. Le type d'otaku actullement selectioné est rendu pour une bulle plus grande.
+
+<img src=IMG/Follow.png style='width:30%; margin-left:35%; margin-right:35%;'>
+
 #### Menu Principal
 _CONTINUER LA PARTIE_  
 Lance la partie à partir du dernier niveau terminé. S'il n'y a aucune sauvegarde présente dans la mémoire du jeu, l'option est remplacée par _NOUVELLE PARTIE_  
@@ -197,22 +256,41 @@ Pour choisir les différentes options présentes dans les menus, le joueur utili
 
 Durant les parties, le joueur devra contrôler à la fois Yhdol et les Otakus.
 
-Les contrôles serons configurable.
+Les contrôles serons configurable. Les contrôle par défault sont font au clavier souris. Le joueur pourras aussi configurer une manette.
+
+Les contrôles on 3 mode :
+  - Le Mode Classic
+  - Le Mode J : Le mode de selction des otaku positioné
+  - Le Mode Contextuelle : Ce mode et propre au capacité d'un otaku.
 
 Les contrôles par default proposé serons :
 
 Au clavier selon la disposition :
-- En local dite AZERTY : Z Saut, Q mouvement droit, D mouvement Gauche.
-- En local dite QWERTY : W Saut, A mouvement droit, D mouvement Gauche.
+  - En local dite AZERTY : Z Saut, Q mouvement droit, D mouvement Gauche.
+  - En local dite QWERTY : W Saut, A mouvement droit, D mouvement Gauche.
 
-Les otakus seront contrôlés avec la souris :
+par default sans prendre en compte la disposition :
+  - I : Quiter le controle d'otaku. Les Commandes de mouvement retourne à Ydhol.
+  - O "Bouton d'action" : Trigger un intérupteur bouton (Ydhol).
 
-- En utilisant le pointeur, on pourra choisir où placer les otakus sur le niveau
-- Le clic gauche de la souris permettra de valider le placement d'un otaku
-- Le clic droit de la souris permettra de supprimer l'otaku
-- La molette de la souris permettra de changer le type d'otaku que l'on veut placer
+ Effectuer l'action de type (Otaku).
 
-La touche "Echap" permettra d'afficher le menu de Pause
+ Mode J selectioner l'otaku courant.
+
+ (La) Maintenir pour changer la direction du courant a l'aide des touches de mouvement.
+
+  - J : Mode de selection otaku placés. (Mode J)
+  - V : Placer un otaku
+  - C : Retirer un otaku
+  - K,L : monter, désendre dans la liste de type otaku. En Mode J, parcourir les otaku.
+  Mode Mie parcourir les Pha.
+  - 1-7 : Selection rapide des types otaku
+
+ Alternativement le joueur pourra aussi utiliser la souris pour les action suivante :
+ - selectioner l'otaku à controler : pointeur de la souris.
+ - Parcourir la liste de type d'otaku : molette de la souris.
+
+La touche "Echap" permettra d'afficher le menu de Pause.
 
 ## Audio, musique, effets audios
 
@@ -250,6 +328,7 @@ L'utilisation des Otakus est associée à une note de musique en fonction de son
 <tr><td>Mort du personnage</td><td> Son #12 </td></tr>
 <tr><td>Déverrouillage avec une clé</td><td> Son #13 </td></tr>
 <tr><td>Impact au sol</td><td> Son #14 </td></tr>
+<tr><td>Action Invalide</td><td> Son #15 </td></tr>
 </table>
 
 # Intelligence artificielle
@@ -271,8 +350,10 @@ Configuration minimale :
 
 ## Environnement de développement
 
-Le jeu sera développer sous Unity en C#.
+Le jeu sera développé sous Unity en C#.
+Les graphismes serons réalisé avec Gimp, et exporter au format png.
+Les musiques et bruitage seront exporter au format Ogg Vorbis.
 
 ## Exigence réseau
 
-Aucune exigence réseau.
+L'utilisateur devras disposé d'une connection internet pour le téléchargment initiale du jeu. Une fois en jeu aucune connection ne seras requise.
