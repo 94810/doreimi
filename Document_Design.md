@@ -13,13 +13,16 @@ table{
 
 </style>
 
+<div style="font-size:xx-small ; margin-bottom : 1px ; text-align : center">Trimestre Automne 2017 - UQAC - 8INF955</div>
+
 <img src='Logo.png' >
 <h1 style="text-align: center">Document de Design</h1>
-<div style='page-break-after : always ; margin-top : 85% ; font-size : xx-small; text-align : center'>
+<div style='page-break-after : always ; margin-top : 80% ; font-size : xx-small; text-align : center'>
    Florian <span class=bsc>Desrousseaux</span> -
     François <span class=bsc>Duport</span> -
     Marion <span class=bsc>Pellicer</span> -
-    Pablo <span class=bsc>Bourdelas</span>
+    Pablo <span class=bsc>Bourdelas</span> <br>
+    Encadrant : Bruno Bouchard
 </div>
 
 
@@ -31,8 +34,7 @@ Doreimi est un jeu en temps réel de plateforme fonctionnant avec des énigmes. 
 
 ## Genre
 
-Jeu de plateforme et d'énigmes
-Niveaux en 2D
+Le jeu est un jeu de platforme et d'énigmes en 2D, avec un style graphique pixel-art d'inspiration japonaise.
 
 ## Audience ciblée
 
@@ -250,6 +252,8 @@ Ouvre le Menu de choix de niveau
 _QUITTER_  
 Termine l'exécution du jeu  
 
+<div style="page-break-after : always">     </div>
+
 #### Menu de Choix de niveau
 Affiche la liste des niveaux débloqués
 
@@ -376,7 +380,9 @@ Configuration minimale :
 ### Environnement de développement
 
 Le jeu sera développé sous Unity en C#.
+
 Les graphismes serons réalisé avec Gimp, et exporter au format png.
+
 Les musiques et bruitage seront exporter au format Ogg Vorbis.
 
 ### Exigence réseau
