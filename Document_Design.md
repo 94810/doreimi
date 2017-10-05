@@ -108,13 +108,14 @@ Tout les objets subissent la gravité à valeur de 1g par default vers le bas de
 Lourds : Caisses et rochers.
 Légers : Clés, sacs pleins.
 
-Les Intérupteur de type bouton ne peuvent être activé que par Ydhol.
+Les interrupteurs de type bouton ne peuvent être activé que par Ydhol.
 
-Les Intérupteur de type plaque peuvent être activé par Ydhol, un Rei
+Les interrupteurs de type plaque peuvent être activé par Ydhol, un Rei
 portant un objet, ou un objet lourd placé dessus.
+
 #### Actions
 
-Chaque types d'otaku à une capacité spéciale.
+Chaque type d'otaku à une capacité spéciale.
 
 Le Doh peut pousser des objets lourds ainsi que les maintenir, et se déplacer latéralement.
 ![Doh](IMG/Doh.png)
@@ -133,7 +134,7 @@ si on dispose d'une ligne droite sans obstacle entre l'origine et la cible.
 Le La peut créer des courants d'airs poussant les personnages et les objets légérs, et se déplacer latéralement.
 La force créée par le courant d'air est de 0.8g (La force ne doit pas permettre de pouvoir voler ou léviter).
 ![La](IMG/La.png)
-Le Xi peut se spécialisé pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
+Le Xi peut se spécialiser pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
 
 ## Replay et Sauvegarde
 
@@ -146,7 +147,7 @@ Dans un monde où l'univers de l'animation japonaise fascine de plus en plus les
 
 Alors qu'elle compte se rendre là-bas en tant qu'invitée d'honneur, la jeune star de la J-pop Yhdol se retrouve perdue au milieu de la forêt québecoise après un crash d'avion.
 
-Elle va devoir se débrouiller pour se rendre à temps au festival, en sollicitant l'aide de ses nombreux fans qu'elle pourra rencontrer au cours de son périple. Yhdol rencontrera plusieurs types d'otaku : les Doh, les Rei, les Mie, les Pha, les Saul, les La et les Xi.
+Elle va devoir se débrouiller pour se rendre à temps au festival, en sollicitant l'aide de ses nombreux fans qu'elle pourra rencontrer au cours de son périple. Yhdol rencontrera plusieurs types d'Otakus : les Doh, les Rei, les Mie, les Pha, les Saul, les La et les Xi.
 
 ## Le monde du jeu
 #### Ambiance et apparence globale du jeu
@@ -174,10 +175,10 @@ De plus, il y aura 7 types d'otakus différents dans le jeu qui seront là pour 
 Voici un schéma du premier niveau
 ![lvl0](IMG/LVL0.png)
 
-Le rocher (1) n'est soumis a aucune force de rapelle.
+Le rocher (1) n'est soumis à aucune force de rapelle.
 Le fossé (2) est profond de 3 unité pour 3 de largeur.
-La platorme (3) est placé de sorte à ce qu'un otaku puisse y être envoié.
-La zone de fin (4) est placé après un fossé infiniment profond est de 4 unités de large.
+La platorme (3) est placée de sorte à ce qu'un otaku puisse y être envoyé.
+La zone de fin (4) est placée après un fossé infiniment profond est de 4 unités de large.
 
 Le joueur dispose de :
 - 1 Doh
@@ -207,9 +208,9 @@ Pour résoudre cette énigme le joueur dispose de :
 ## Ecrans et Menus
 #### Ecran de jeu et Camera
 
-La camera capture tout le tableau si ça largueur est inférieur à 30 unité, sinon on effectue un scrolling. Le tableau est toujours afficher sur toute ça hauteur.
+La camera capture tout le tableau si sa largueur est inférieur à 30 unité, sinon on effectue un scrolling. Le tableau est toujours affiché sur toute sa hauteur.
 
-Les otaku disponible sont représenté par des bulles suivant Ydhol. Le type d'otaku actullement selectioné est rendu pour une bulle plus grande.
+Les otaku disponibles sont représentés par des bulles suivant Ydhol. Le type d'otaku actuellement selectionné est rendu par une bulle plus grande.
 
 <img src=IMG/Follow.png style='width:30%; margin-left:35%; margin-right:35%;'>
 
