@@ -60,8 +60,6 @@ Pour se faire, elle devra traverser d'immenses paysages et résoudre des casses-
 L'objectif d'un tableau est d'atteindre la zone de sortie active.
 Si la zone de sortie n'est pas active il faut l'activer à l'aide des d'interrupteurs indiqués dans le tableau.
 
-#### Play Flow
-
 ## Mécaniques
 
 La mécanique du jeu consiste à contrôler Ydhol et ses otakus en les placant et en leur donnant des ordres.
@@ -103,8 +101,6 @@ La force créée par le courant d'air est de 0.8g (La force ne doit pas permettr
 ![La](IMG/La.png)
 Le Xi peut se spécialisé pour utiliser la capacité de n'importe quel autre otaku. Une fois la spécialisation choisie, elle est définitive.
 
-#### Screen Flow
-## Options de jeu
 ## Replay et Sauvegarde
 
 Les sauvegardes sont automatiques et s'effectuent à chaque fin de niveau. Compléter un niveau sauvegarde la progression du joueur automatiquement et ce dernier ne peut en aucun cas sauvegarder sa partie en plein milieu d'un niveau.
@@ -256,15 +252,9 @@ L'utilisation des Otakus est associée à une note de musique en fonction de son
 <tr><td>Impact au sol</td><td> Son #14 </td></tr>
 </table>
 
-## Système d'aide
-
 # Intelligence artificielle
 
 L'Intelligence artificielle du jeu est très limitée du à l'absence d'ennemis dans le jeu. Les otakus qui obéiront à Yhdol la suivront sauf en cas d'ordres contraire.
-
-## IA Ennemie
-## Personnages alliés
-## IA d'assistance
 
 # Détails techniques
 ## Matériel cible
